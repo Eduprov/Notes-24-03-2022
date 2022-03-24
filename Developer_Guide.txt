@@ -1,0 +1,108 @@
+Developer Guide
+   Html : hypertext markup language , it has collections of pre-definded tags.   <li> </li> -- list
+                                                                                 ctrl+D -> For duplication
+                                                                                 cellspacing -- apply spacing in outside
+   Tags ?                                                                        cellpadding -- apply spacing in inside
+      <> open tag                                                                <marquee></marquee> -- it scrolls texts automatically
+      </> close tag                                                              <textarea cols="" rows=""></textarea> to increase width and height of the text box
+   Type of tag ?                                                                 <button type"submit">Send Message</button>
+				                                                                 <button type="reset">Reset</button>
+   1. input tag                                                                   <a href=".html">Add Text</a>
+   2. output tag
+
+   Behavior of tags 
+   1. block level element- those tags, that print in next line 
+   Block level elements take up as much space as possible by default. 
+   Each block level element will start a new line on the page, stacking down the page.
+   Examples of block level elements:
+   * <p>
+   * <ol>, <ul>, <dl>
+   * All headings
+   * <article>, <section>, <div>
+
+   2. inline tag element- those tags, print in same line
+   Inline elements display in a line. They do not force the text after them to a new line.
+   An anchor (or link) is an example of an inline element. 
+   You can put several links in a row, and they will display in a line.
+   Examples of inline elements:
+    * <a>
+    * <strong>, <em>, <b>, <i>, <q>, <mark>
+    * <span>
+ 
+   Nature of tags?
+   1. dependent element-
+   2. independent element-
+-------------------------------
+  List of tags in html
+   Type of list in html
+   1. OL - order list 
+   2. UL - unorder list
+   3. DL - definition list  
+ ----------------------------------
+  How to link one page to other page in html
+  <a href="nextpagename" title="" target="">Text to click </a>
+  Example :
+  <a href="signup.html" 
+     title="click here" 
+	 target="_new"> i am a new user </a>
+
+The <a> tag defines a hyperlink, which is used to link from one page to another.
+The most important attribute of the <a> element is the href attribute, which indicates the link's destination.
+If the <a> tag has no href attribute, it is only a placeholder for a hyperlink.
+
+------------------------------------------------------------------	 
+	 Types of target
+	  -> _self : it is default target, next page will open in the same tab
+	  -> _new : it open new tab but only first click, after first click it is simply  reload the opened tab
+      -> _blank :  it also open new tab, but every click 
+	  
+	  ----------------in html frameset----------------
+	  -> top : it connects to master page in frameset
+	  -> userDefined : it will be defined by developer
+	  
+	  ------------in js,jquery,bootstrap--------------
+	  -> _child : it opens a popup window
+	  -> _parent : The changes in parent window, reflect to child window
+	  
+--------------------------------------------------------------------------------
+    Table structure in html ? 
+	table
+	    caption 
+		tr -- table row
+		th -- table heading
+		td -- table data
+		
+		List of property in table
+		    align - it can either left, right, center
+			border - 
+			bgcolor -
+			height -
+			width -
+			cellpadding -
+			cellspacing -
+			colspan -
+			rowspan -
+			valign - (vertical align) top, middle, bottom
+			-------------------------------------------------------------------------
+	  
+    	    How to divide html body(page) into multiple blocks ??
+         -> table -- non responsive, bad performace
+		 -> frameset -- non responsive, good performace
+		 -> div + css -- bootstrap -- full responsive and better performace
+		  rows= represent the height
+	      colums= represent the width
+		  
+-----------------------------------------------------------------------		  
+		  List of html input tags
+		  1. textbox
+		  2. password
+		  3. textarea
+		  4. radio button
+		  5. checkbox
+		  6. file
+		  7. select
+		  8. number
+		  9. email
+		  10. submit
+		  11. reset
+		  12. button
